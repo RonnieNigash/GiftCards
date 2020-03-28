@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Gift_Cards
+@testable import GiftCards
 
 class Gift_CardsTests: XCTestCase {
 
