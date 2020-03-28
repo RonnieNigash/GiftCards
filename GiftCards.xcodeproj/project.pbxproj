@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BA04D50242F914800DE7200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA04D4F242F914800DE7200 /* AppDelegate.swift */; };
+		3BA04D52242F914800DE7200 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA04D51242F914800DE7200 /* SceneDelegate.swift */; };
+		3BA04D54242F914800DE7200 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA04D53242F914800DE7200 /* ContentView.swift */; };
+		3BA04D56242F914B00DE7200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA04D55242F914B00DE7200 /* Assets.xcassets */; };
+		3BA04D59242F914B00DE7200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA04D58242F914B00DE7200 /* Preview Assets.xcassets */; };
+		3BA04D5C242F914B00DE7200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA04D5A242F914B00DE7200 /* LaunchScreen.storyboard */; };
+		3BA04D67242F914B00DE7200 /* Gift_CardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA04D66242F914B00DE7200 /* Gift_CardsTests.swift */; };
+		3BA04D72242F914B00DE7200 /* Gift_CardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA04D71242F914B00DE7200 /* Gift_CardsUITests.swift */; };
+		3BA04D81242F92BA00DE7200 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA04D80242F92BA00DE7200 /* Printer.swift */; };
+		3BA04D96242F9FD100DE7200 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA04D92242F9FC200DE7200 /* CoreGraphics.framework */; };
+		3BA04DA2242FA50700DE7200 /* BRLMPrinterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA04D9E242FA46D00DE7200 /* BRLMPrinterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3BA04DA4242FA58400DE7200 /* BRLMPrinterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA04D9E242FA46D00DE7200 /* BRLMPrinterKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BA04D63242F914B00DE7200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA04D44242F914800DE7200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA04D4B242F914800DE7200;
+			remoteInfo = "Gift Cards";
+		};
+		3BA04D6E242F914B00DE7200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA04D44242F914800DE7200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA04D4B242F914800DE7200;
+			remoteInfo = "Gift Cards";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BA04DA3242FA50700DE7200 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3BA04DA2242FA50700DE7200 /* BRLMPrinterKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BA04D4C242F914800DE7200 /* Gift-Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gift-Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA04D4F242F914800DE7200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BA04D51242F914800DE7200 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3BA04D53242F914800DE7200 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BA04D55242F914B00DE7200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA04D58242F914B00DE7200 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BA04D5B242F914B00DE7200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BA04D5D242F914B00DE7200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA04D62242F914B00DE7200 /* Gift-CardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gift-CardsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA04D66242F914B00DE7200 /* Gift_CardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift_CardsTests.swift; sourceTree = "<group>"; };
+		3BA04D68242F914B00DE7200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA04D6D242F914B00DE7200 /* Gift-CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gift-CardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA04D71242F914B00DE7200 /* Gift_CardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift_CardsUITests.swift; sourceTree = "<group>"; };
+		3BA04D73242F914B00DE7200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA04D80242F92BA00DE7200 /* Printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		3BA04D8F242F9E5D00DE7200 /* Gift_Cards-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gift_Cards-Bridging-Header.h"; sourceTree = "<group>"; };
+		3BA04D92242F9FC200DE7200 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BA04D9E242FA46D00DE7200 /* BRLMPrinterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRLMPrinterKit.framework; path = "../../Projects/Brother Hackathon/bpsdkiall400beta/bpsdki400beta/libs/BRLMPrinterKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA04D49242F914800DE7200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA04DA4242FA58400DE7200 /* BRLMPrinterKit.framework in Frameworks */,
+				3BA04D96242F9FD100DE7200 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA04D5F242F914B00DE7200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA04D6A242F914B00DE7200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA04D43242F914800DE7200 = {
+			isa = PBXGroup;
+			children = (
+				3BA04D4E242F914800DE7200 /* Gift_Cards */,
+				3BA04D65242F914B00DE7200 /* Gift_CardsTests */,
+				3BA04D70242F914B00DE7200 /* Gift_CardsUITests */,
+				3BA04D4D242F914800DE7200 /* Products */,
+				3BA04D82242F934800DE7200 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA04D4D242F914800DE7200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA04D4C242F914800DE7200 /* Gift-Cards.app */,
+				3BA04D62242F914B00DE7200 /* Gift-CardsTests.xctest */,
+				3BA04D6D242F914B00DE7200 /* Gift-CardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA04D4E242F914800DE7200 /* Gift_Cards */ = {
+			isa = PBXGroup;
+			children = (
+				3BA04D4F242F914800DE7200 /* AppDelegate.swift */,
+				3BA04D7F242F928E00DE7200 /* Printer */,
+				3BA04D51242F914800DE7200 /* SceneDelegate.swift */,
+				3BA04D53242F914800DE7200 /* ContentView.swift */,
+				3BA04D55242F914B00DE7200 /* Assets.xcassets */,
+				3BA04D5A242F914B00DE7200 /* LaunchScreen.storyboard */,
+				3BA04D5D242F914B00DE7200 /* Info.plist */,
+				3BA04D57242F914B00DE7200 /* Preview Content */,
+			);
+			path = Gift_Cards;
+			sourceTree = "<group>";
+		};
+		3BA04D57242F914B00DE7200 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BA04D58242F914B00DE7200 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BA04D65242F914B00DE7200 /* Gift_CardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA04D66242F914B00DE7200 /* Gift_CardsTests.swift */,
+				3BA04D68242F914B00DE7200 /* Info.plist */,
+			);
+			path = Gift_CardsTests;
+			sourceTree = "<group>";
+		};
+		3BA04D70242F914B00DE7200 /* Gift_CardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA04D71242F914B00DE7200 /* Gift_CardsUITests.swift */,
+				3BA04D73242F914B00DE7200 /* Info.plist */,
+			);
+			path = Gift_CardsUITests;
+			sourceTree = "<group>";
+		};
+		3BA04D7F242F928E00DE7200 /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				3BA04D80242F92BA00DE7200 /* Printer.swift */,
+				3BA04D8F242F9E5D00DE7200 /* Gift_Cards-Bridging-Header.h */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+		3BA04D82242F934800DE7200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA04D9E242FA46D00DE7200 /* BRLMPrinterKit.framework */,
+				3BA04D92242F9FC200DE7200 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA04D4B242F914800DE7200 /* Gift-Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA04D76242F914B00DE7200 /* Build configuration list for PBXNativeTarget "Gift-Cards" */;
+			buildPhases = (
+				3BA04D48242F914800DE7200 /* Sources */,
+				3BA04D49242F914800DE7200 /* Frameworks */,
+				3BA04D4A242F914800DE7200 /* Resources */,
+				3BA04DA3242FA50700DE7200 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gift-Cards";
+			productName = "Gift Cards";
+			productReference = 3BA04D4C242F914800DE7200 /* Gift-Cards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BA04D61242F914B00DE7200 /* Gift-CardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA04D79242F914B00DE7200 /* Build configuration list for PBXNativeTarget "Gift-CardsTests" */;
+			buildPhases = (
+				3BA04D5E242F914B00DE7200 /* Sources */,
+				3BA04D5F242F914B00DE7200 /* Frameworks */,
+				3BA04D60242F914B00DE7200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA04D64242F914B00DE7200 /* PBXTargetDependency */,
+			);
+			name = "Gift-CardsTests";
+			productName = "Gift CardsTests";
+			productReference = 3BA04D62242F914B00DE7200 /* Gift-CardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BA04D6C242F914B00DE7200 /* Gift-CardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA04D7C242F914B00DE7200 /* Build configuration list for PBXNativeTarget "Gift-CardsUITests" */;
+			buildPhases = (
+				3BA04D69242F914B00DE7200 /* Sources */,
+				3BA04D6A242F914B00DE7200 /* Frameworks */,
+				3BA04D6B242F914B00DE7200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA04D6F242F914B00DE7200 /* PBXTargetDependency */,
+			);
+			name = "Gift-CardsUITests";
+			productName = "Gift CardsUITests";
+			productReference = 3BA04D6D242F914B00DE7200 /* Gift-CardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA04D44242F914800DE7200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ronald Nigash";
+				TargetAttributes = {
+					3BA04D4B242F914800DE7200 = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+					};
+					3BA04D61242F914B00DE7200 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 3BA04D4B242F914800DE7200;
+					};
+					3BA04D6C242F914B00DE7200 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 3BA04D4B242F914800DE7200;
+					};
+				};
+			};
+			buildConfigurationList = 3BA04D47242F914800DE7200 /* Build configuration list for PBXProject "Gift-Cards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA04D43242F914800DE7200;
+			productRefGroup = 3BA04D4D242F914800DE7200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA04D4B242F914800DE7200 /* Gift-Cards */,
+				3BA04D61242F914B00DE7200 /* Gift-CardsTests */,
+				3BA04D6C242F914B00DE7200 /* Gift-CardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA04D4A242F914800DE7200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA04D5C242F914B00DE7200 /* LaunchScreen.storyboard in Resources */,
+				3BA04D59242F914B00DE7200 /* Preview Assets.xcassets in Resources */,
+				3BA04D56242F914B00DE7200 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA04D60242F914B00DE7200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA04D6B242F914B00DE7200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA04D48242F914800DE7200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA04D81242F92BA00DE7200 /* Printer.swift in Sources */,
+				3BA04D50242F914800DE7200 /* AppDelegate.swift in Sources */,
+				3BA04D52242F914800DE7200 /* SceneDelegate.swift in Sources */,
+				3BA04D54242F914800DE7200 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA04D5E242F914B00DE7200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA04D67242F914B00DE7200 /* Gift_CardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA04D69242F914B00DE7200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA04D72242F914B00DE7200 /* Gift_CardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA04D64242F914B00DE7200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA04D4B242F914800DE7200 /* Gift-Cards */;
+			targetProxy = 3BA04D63242F914B00DE7200 /* PBXContainerItemProxy */;
+		};
+		3BA04D6F242F914B00DE7200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA04D4B242F914800DE7200 /* Gift-Cards */;
+			targetProxy = 3BA04D6E242F914B00DE7200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BA04D5A242F914B00DE7200 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA04D5B242F914B00DE7200 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BA04D74242F914B00DE7200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BA04D75242F914B00DE7200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA04D77242F914B00DE7200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Gift Cards/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VB653NL32;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/libs",
+				);
+				INFOPLIST_FILE = "Gift Cards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nigash.Gift-Cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gift Cards/Printer/Gift Cards-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BA04D78242F914B00DE7200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Gift Cards/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VB653NL32;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/libs",
+				);
+				INFOPLIST_FILE = "Gift Cards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nigash.Gift-Cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gift Cards/Printer/Gift Cards-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BA04D7A242F914B00DE7200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VB653NL32;
+				INFOPLIST_FILE = "Gift CardsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nigash.Gift-CardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gift-Cards.app/Gift-Cards";
+			};
+			name = Debug;
+		};
+		3BA04D7B242F914B00DE7200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VB653NL32;
+				INFOPLIST_FILE = "Gift CardsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nigash.Gift-CardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gift-Cards.app/Gift-Cards";
+			};
+			name = Release;
+		};
+		3BA04D7D242F914B00DE7200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VB653NL32;
+				INFOPLIST_FILE = "Gift CardsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nigash.Gift-CardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gift Cards";
+			};
+			name = Debug;
+		};
+		3BA04D7E242F914B00DE7200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VB653NL32;
+				INFOPLIST_FILE = "Gift CardsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nigash.Gift-CardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gift Cards";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA04D47242F914800DE7200 /* Build configuration list for PBXProject "Gift-Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA04D74242F914B00DE7200 /* Debug */,
+				3BA04D75242F914B00DE7200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA04D76242F914B00DE7200 /* Build configuration list for PBXNativeTarget "Gift-Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA04D77242F914B00DE7200 /* Debug */,
+				3BA04D78242F914B00DE7200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA04D79242F914B00DE7200 /* Build configuration list for PBXNativeTarget "Gift-CardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA04D7A242F914B00DE7200 /* Debug */,
+				3BA04D7B242F914B00DE7200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA04D7C242F914B00DE7200 /* Build configuration list for PBXNativeTarget "Gift-CardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA04D7D242F914B00DE7200 /* Debug */,
+				3BA04D7E242F914B00DE7200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA04D44242F914800DE7200 /* Project object */;
+}
