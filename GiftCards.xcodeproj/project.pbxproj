@@ -13,30 +13,20 @@
 		3BA04D56242F914B00DE7200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA04D55242F914B00DE7200 /* Assets.xcassets */; };
 		3BA04D59242F914B00DE7200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA04D58242F914B00DE7200 /* Preview Assets.xcassets */; };
 		3BA04D5C242F914B00DE7200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA04D5A242F914B00DE7200 /* LaunchScreen.storyboard */; };
-		3BA04D67242F914B00DE7200 /* GiftCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA04D66242F914B00DE7200 /* GiftCardsTests.swift */; };
-		3BA04D72242F914B00DE7200 /* GiftCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA04D71242F914B00DE7200 /* GiftCardsUITests.swift */; };
 		3BA04D81242F92BA00DE7200 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA04D80242F92BA00DE7200 /* Printer.swift */; };
 		3BA04D96242F9FD100DE7200 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA04D92242F9FC200DE7200 /* CoreGraphics.framework */; };
-		3BA04DA2242FA50700DE7200 /* BRLMPrinterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA04D9E242FA46D00DE7200 /* BRLMPrinterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3BA04DA4242FA58400DE7200 /* BRLMPrinterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA04D9E242FA46D00DE7200 /* BRLMPrinterKit.framework */; };
+		5468C3F62430013E003CB552 /* BRLMPrinterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5468C3F52430013E003CB552 /* BRLMPrinterKit.framework */; };
+		5468C3F724300461003CB552 /* BRLMPrinterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5468C3F52430013E003CB552 /* BRLMPrinterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5468C3FC24300B32003CB552 /* GiftCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468C3FB24300B32003CB552 /* GiftCardList.swift */; };
+		5468C40224300BFB003CB552 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468C40124300BFB003CB552 /* Data.swift */; };
+		5468C40424300C24003CB552 /* GiftCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468C40324300C24003CB552 /* GiftCard.swift */; };
+		5468C40624300C55003CB552 /* giftcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 5468C40524300C55003CB552 /* giftcard.png */; };
+		5468C40824300C87003CB552 /* purchasedata.json in Resources */ = {isa = PBXBuildFile; fileRef = 5468C40724300C87003CB552 /* purchasedata.json */; };
+		5468C40A24300CD5003CB552 /* GiftCardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468C40924300CD5003CB552 /* GiftCardRow.swift */; };
+		5468C40C24300CF2003CB552 /* GiftCardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468C40B24300CF2003CB552 /* GiftCardDetail.swift */; };
+		5468C41024300F37003CB552 /* giftcarddata.json in Resources */ = {isa = PBXBuildFile; fileRef = 5468C40F24300F37003CB552 /* giftcarddata.json */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3BA04D63242F914B00DE7200 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3BA04D44242F914800DE7200 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3BA04D4B242F914800DE7200;
-			remoteInfo = "Gift Cards";
-		};
-		3BA04D6E242F914B00DE7200 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3BA04D44242F914800DE7200 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3BA04D4B242F914800DE7200;
-			remoteInfo = "Gift Cards";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		3BA04DA3242FA50700DE7200 /* Embed Frameworks */ = {
@@ -45,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3BA04DA2242FA50700DE7200 /* BRLMPrinterKit.framework in Embed Frameworks */,
+				5468C3F724300461003CB552 /* BRLMPrinterKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,16 +51,19 @@
 		3BA04D58242F914B00DE7200 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BA04D5B242F914B00DE7200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BA04D5D242F914B00DE7200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BA04D62242F914B00DE7200 /* GiftCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiftCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA04D66242F914B00DE7200 /* GiftCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardsTests.swift; sourceTree = "<group>"; };
-		3BA04D68242F914B00DE7200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BA04D6D242F914B00DE7200 /* GiftCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiftCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA04D71242F914B00DE7200 /* GiftCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardsUITests.swift; sourceTree = "<group>"; };
-		3BA04D73242F914B00DE7200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA04D80242F92BA00DE7200 /* Printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
 		3BA04D8F242F9E5D00DE7200 /* GiftCardsBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftCardsBridgingHeader.h; sourceTree = "<group>"; };
 		3BA04D92242F9FC200DE7200 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3BA04D9E242FA46D00DE7200 /* BRLMPrinterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRLMPrinterKit.framework; path = "../../Projects/Brother Hackathon/bpsdkiall400beta/bpsdki400beta/libs/BRLMPrinterKit.framework"; sourceTree = "<group>"; };
+		5468C3F52430013E003CB552 /* BRLMPrinterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BRLMPrinterKit.framework; sourceTree = "<group>"; };
+		5468C3FB24300B32003CB552 /* GiftCardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardList.swift; sourceTree = "<group>"; };
+		5468C40124300BFB003CB552 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5468C40324300C24003CB552 /* GiftCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCard.swift; sourceTree = "<group>"; };
+		5468C40524300C55003CB552 /* giftcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giftcard.png; sourceTree = "<group>"; };
+		5468C40724300C87003CB552 /* purchasedata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = purchasedata.json; sourceTree = "<group>"; };
+		5468C40924300CD5003CB552 /* GiftCardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardRow.swift; sourceTree = "<group>"; };
+		5468C40B24300CF2003CB552 /* GiftCardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardDetail.swift; sourceTree = "<group>"; };
+		5468C40F24300F37003CB552 /* giftcarddata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = giftcarddata.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,22 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5468C3F62430013E003CB552 /* BRLMPrinterKit.framework in Frameworks */,
 				3BA04DA4242FA58400DE7200 /* BRLMPrinterKit.framework in Frameworks */,
 				3BA04D96242F9FD100DE7200 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BA04D5F242F914B00DE7200 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BA04D6A242F914B00DE7200 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,9 +83,8 @@
 		3BA04D43242F914800DE7200 = {
 			isa = PBXGroup;
 			children = (
+				5468C3F2242FFF0C003CB552 /* libs */,
 				3BA04D4E242F914800DE7200 /* GiftCards */,
-				3BA04D65242F914B00DE7200 /* GiftCardsTests */,
-				3BA04D70242F914B00DE7200 /* GiftCardsUITests */,
 				3BA04D4D242F914800DE7200 /* Products */,
 				3BA04D82242F934800DE7200 /* Frameworks */,
 			);
@@ -115,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				3BA04D4C242F914800DE7200 /* GiftCards.app */,
-				3BA04D62242F914B00DE7200 /* GiftCardsTests.xctest */,
-				3BA04D6D242F914B00DE7200 /* GiftCardsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +101,9 @@
 		3BA04D4E242F914800DE7200 /* GiftCards */ = {
 			isa = PBXGroup;
 			children = (
+				5468C40024300BED003CB552 /* Models */,
+				5468C3FD24300B4C003CB552 /* Resources */,
+				5468C3FA24300B1F003CB552 /* Supporting Views */,
 				3BA04D4F242F914800DE7200 /* AppDelegate.swift */,
 				3BA04D7F242F928E00DE7200 /* Printer */,
 				3BA04D51242F914800DE7200 /* SceneDelegate.swift */,
@@ -144,24 +124,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3BA04D65242F914B00DE7200 /* GiftCardsTests */ = {
-			isa = PBXGroup;
-			children = (
-				3BA04D66242F914B00DE7200 /* GiftCardsTests.swift */,
-				3BA04D68242F914B00DE7200 /* Info.plist */,
-			);
-			path = GiftCardsTests;
-			sourceTree = "<group>";
-		};
-		3BA04D70242F914B00DE7200 /* GiftCardsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3BA04D71242F914B00DE7200 /* GiftCardsUITests.swift */,
-				3BA04D73242F914B00DE7200 /* Info.plist */,
-			);
-			path = GiftCardsUITests;
-			sourceTree = "<group>";
-		};
 		3BA04D7F242F928E00DE7200 /* Printer */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +140,43 @@
 				3BA04D92242F9FC200DE7200 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5468C3F2242FFF0C003CB552 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				5468C3F52430013E003CB552 /* BRLMPrinterKit.framework */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		5468C3FA24300B1F003CB552 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				5468C3FB24300B32003CB552 /* GiftCardList.swift */,
+				5468C40924300CD5003CB552 /* GiftCardRow.swift */,
+				5468C40B24300CF2003CB552 /* GiftCardDetail.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		5468C3FD24300B4C003CB552 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5468C40524300C55003CB552 /* giftcard.png */,
+				5468C40724300C87003CB552 /* purchasedata.json */,
+				5468C40F24300F37003CB552 /* giftcarddata.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5468C40024300BED003CB552 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5468C40124300BFB003CB552 /* Data.swift */,
+				5468C40324300C24003CB552 /* GiftCard.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,42 +200,6 @@
 			productReference = 3BA04D4C242F914800DE7200 /* GiftCards.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3BA04D61242F914B00DE7200 /* GiftCardsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3BA04D79242F914B00DE7200 /* Build configuration list for PBXNativeTarget "GiftCardsTests" */;
-			buildPhases = (
-				3BA04D5E242F914B00DE7200 /* Sources */,
-				3BA04D5F242F914B00DE7200 /* Frameworks */,
-				3BA04D60242F914B00DE7200 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3BA04D64242F914B00DE7200 /* PBXTargetDependency */,
-			);
-			name = GiftCardsTests;
-			productName = "Gift CardsTests";
-			productReference = 3BA04D62242F914B00DE7200 /* GiftCardsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3BA04D6C242F914B00DE7200 /* GiftCardsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3BA04D7C242F914B00DE7200 /* Build configuration list for PBXNativeTarget "GiftCardsUITests" */;
-			buildPhases = (
-				3BA04D69242F914B00DE7200 /* Sources */,
-				3BA04D6A242F914B00DE7200 /* Frameworks */,
-				3BA04D6B242F914B00DE7200 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3BA04D6F242F914B00DE7200 /* PBXTargetDependency */,
-			);
-			name = GiftCardsUITests;
-			productName = "Gift CardsUITests";
-			productReference = 3BA04D6D242F914B00DE7200 /* GiftCardsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -250,14 +213,6 @@
 					3BA04D4B242F914800DE7200 = {
 						CreatedOnToolsVersion = 11.4;
 						LastSwiftMigration = 1140;
-					};
-					3BA04D61242F914B00DE7200 = {
-						CreatedOnToolsVersion = 11.4;
-						TestTargetID = 3BA04D4B242F914800DE7200;
-					};
-					3BA04D6C242F914B00DE7200 = {
-						CreatedOnToolsVersion = 11.4;
-						TestTargetID = 3BA04D4B242F914800DE7200;
 					};
 				};
 			};
@@ -275,8 +230,6 @@
 			projectRoot = "";
 			targets = (
 				3BA04D4B242F914800DE7200 /* GiftCards */,
-				3BA04D61242F914B00DE7200 /* GiftCardsTests */,
-				3BA04D6C242F914B00DE7200 /* GiftCardsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,23 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5468C40824300C87003CB552 /* purchasedata.json in Resources */,
+				5468C41024300F37003CB552 /* giftcarddata.json in Resources */,
 				3BA04D5C242F914B00DE7200 /* LaunchScreen.storyboard in Resources */,
 				3BA04D59242F914B00DE7200 /* Preview Assets.xcassets in Resources */,
 				3BA04D56242F914B00DE7200 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BA04D60242F914B00DE7200 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BA04D6B242F914B00DE7200 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5468C40624300C55003CB552 /* giftcard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,43 +255,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5468C40224300BFB003CB552 /* Data.swift in Sources */,
+				5468C3FC24300B32003CB552 /* GiftCardList.swift in Sources */,
 				3BA04D81242F92BA00DE7200 /* Printer.swift in Sources */,
 				3BA04D50242F914800DE7200 /* AppDelegate.swift in Sources */,
+				5468C40A24300CD5003CB552 /* GiftCardRow.swift in Sources */,
+				5468C40424300C24003CB552 /* GiftCard.swift in Sources */,
 				3BA04D52242F914800DE7200 /* SceneDelegate.swift in Sources */,
+				5468C40C24300CF2003CB552 /* GiftCardDetail.swift in Sources */,
 				3BA04D54242F914800DE7200 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BA04D5E242F914B00DE7200 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BA04D67242F914B00DE7200 /* GiftCardsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BA04D69242F914B00DE7200 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BA04D72242F914B00DE7200 /* GiftCardsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3BA04D64242F914B00DE7200 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3BA04D4B242F914800DE7200 /* GiftCards */;
-			targetProxy = 3BA04D63242F914B00DE7200 /* PBXContainerItemProxy */;
-		};
-		3BA04D6F242F914B00DE7200 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3BA04D4B242F914800DE7200 /* GiftCards */;
-			targetProxy = 3BA04D6E242F914B00DE7200 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3BA04D5A242F914B00DE7200 /* LaunchScreen.storyboard */ = {
@@ -485,7 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"GiftCards/Preview Content\"";
-				DEVELOPMENT_TEAM = 3VB653NL32;
+				DEVELOPMENT_TEAM = LG33S2483B;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,11 +411,12 @@
 					"$(PROJECT_DIR)/libs",
 				);
 				INFOPLIST_FILE = GiftCards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nigash.GiftCards;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianawang.GiftCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = GiftCards/Printer/GiftCardsBridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -514,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"GiftCards/Preview Content\"";
-				DEVELOPMENT_TEAM = 3VB653NL32;
+				DEVELOPMENT_TEAM = LG33S2483B;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -522,99 +441,16 @@
 					"$(PROJECT_DIR)/libs",
 				);
 				INFOPLIST_FILE = GiftCards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nigash.GiftCards;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianawang.GiftCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = GiftCards/Printer/GiftCardsBridgingHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3BA04D7A242F914B00DE7200 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VB653NL32;
-				INFOPLIST_FILE = "Gift CardsTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nigash.Gift-CardsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiftCards.app/GiftCards";
-			};
-			name = Debug;
-		};
-		3BA04D7B242F914B00DE7200 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VB653NL32;
-				INFOPLIST_FILE = "Gift CardsTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nigash.Gift-CardsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiftCards.app/GiftCards";
-			};
-			name = Release;
-		};
-		3BA04D7D242F914B00DE7200 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VB653NL32;
-				INFOPLIST_FILE = "Gift CardsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nigash.Gift-CardsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Gift Cards";
-			};
-			name = Debug;
-		};
-		3BA04D7E242F914B00DE7200 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VB653NL32;
-				INFOPLIST_FILE = "Gift CardsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nigash.Gift-CardsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Gift Cards";
 			};
 			name = Release;
 		};
@@ -635,24 +471,6 @@
 			buildConfigurations = (
 				3BA04D77242F914B00DE7200 /* Debug */,
 				3BA04D78242F914B00DE7200 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3BA04D79242F914B00DE7200 /* Build configuration list for PBXNativeTarget "GiftCardsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BA04D7A242F914B00DE7200 /* Debug */,
-				3BA04D7B242F914B00DE7200 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3BA04D7C242F914B00DE7200 /* Build configuration list for PBXNativeTarget "GiftCardsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BA04D7D242F914B00DE7200 /* Debug */,
-				3BA04D7E242F914B00DE7200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

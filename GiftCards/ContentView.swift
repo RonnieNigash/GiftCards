@@ -13,8 +13,7 @@ struct ContentView: View {
  
     var body: some View {
         TabView(selection: $selection){
-            Text("Print Cards")
-                .font(.title)
+            GiftCardList()
                 .tabItem {
                     VStack {
                         Image("first")

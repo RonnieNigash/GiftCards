@@ -1,0 +1,14 @@
+[
+    {
+        "customerId": 0,
+        "giftCardType" : 0,
+        "currentValue": 15,
+        "uniqueCode": "XXXX-XXXX-XXXX-XXXX"
+    },
+    {
+        "customerId": 1,
+        "giftCardType" : 1,
+        "currentValue": 12,
+        "uniqueCode": "YYYY-YYYY-YYYY-YYYY"
+    }
+]
