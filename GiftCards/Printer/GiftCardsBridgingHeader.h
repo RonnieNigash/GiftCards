@@ -4,5 +4,7 @@
 
 #import <CoreGraphics/CGImage.h>
 #import <BRLMPrinterKit/BRLMChannel.h>
+#import <BRLMPrinterKit/BRLMPrinterDefine.h>
+#import <BRLMPrinterKit/BRLMQLPrintSettings.h>
 #import <BRLMPrinterKit/BRLMPrinterDriverGenerator.h>
 #import <BRLMPrinterKit/BRLMOpenChannelError.h>
